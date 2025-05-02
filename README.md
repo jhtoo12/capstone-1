@@ -7,10 +7,16 @@ This is a basic Accounting Ledger App that add deposit and take out payment and 
 
 • Show all ledger entries • Filter transactions by deposits, payments, date ranges, or vendor • Store and retrieve data from a CSV file
 
-Screenshot 2025-05-02 093636.png Screenshot 2025-05-02 093711.png Screenshot 2025-05-02 093748.png Interesting Code Example
+https://github.com/jhtoo12/capstone-1/blob/main/Screenshot%202025-05-02%20093636.png
+
+https://github.com/jhtoo12/capstone-1/blob/main/Screenshot%202025-05-02%20093711.png
+
+https://github.com/jhtoo12/capstone-1/blob/main/Screenshot%202025-05-02%20093748.png
 
 One interesting part of the project is how it filters transactions by vendor;
 
-Screenshot 2025-05-02 093837.png
+https://github.com/jhtoo12/capstone-1/blob/main/Screenshot%202025-05-02%20093837.png
 
-if (!tokens[3].equals("vendor")) { if(tokens[3].equalsIgnoreCase(targetVendor)) { System.out.println(line);
+public static void searchByVendor() { System.out.print("Enter vendor name to search: "); String searchVendor = scanner.nextLine().toLowerCase();
+
+
